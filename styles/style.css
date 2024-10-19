@@ -1,1 +1,10 @@
 /* место для вашего кода */
+.header {
+  width: 100%;
+  background-color: #fff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 92px 24px;
+  align-items: center;
+}
