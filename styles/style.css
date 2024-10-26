@@ -51,6 +51,10 @@ adress {
   justify-self: end;
   padding-right: 60px;
   align-self: center;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 135%;
+  color: #000;
 }
 adress > a {
   text-decoration: none;
@@ -229,6 +233,9 @@ adress > a {
   padding: 0 0 0 40px;
 }
 
+/*Конец блока карточек*/
+/*Начало блока описания*/
+
 .about {
   position: relative;
   padding-top: 146px 24px 180px;
@@ -237,11 +244,14 @@ adress > a {
   grid-template-columns: 334px auto;
   grid-template-rows: 563px auto;
 }
+.about__column {
 
+}
 .about__column-text {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  padding-top: 50px;
 }
 
 .about__title {
@@ -259,7 +269,6 @@ adress > a {
   align-items: center;
   background-color: #000;
   border-radius: 50%;
-  align-self: start;
   justify-self: center;
 }
 
@@ -285,4 +294,45 @@ adress > a {
 
 .about__text > p:first-child {
   padding-bottom: 10px;
+}
+
+/*Конец блока описания*/
+/*Начало блока подвала*/
+
+.footer {
+  background-color: #fff;
+  padding: 180px 50px 88px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.footer__menu {
+  text-align: center;
+}
+.footer__menu-list-item {
+  list-style: none;
+  color: #000;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+
+.footer__menu-link-active {
+  text-decoration: none;
+}
+
+.footer__social-list {
+  display: flex;
+  flex-direction: row;
+  gap: 48px;
+}
+
+
+.footer__social-list-item {
+  list-style: none;
+}
+
+.footer__social-icon {
+  max-width: 48px;
 }
