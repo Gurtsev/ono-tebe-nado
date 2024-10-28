@@ -1,1 +1,1 @@
-https://github.com/Gurtsev/ono-tebe-nado-first-project
+https://github.com/Gurtsev/ono-tebe-nado
