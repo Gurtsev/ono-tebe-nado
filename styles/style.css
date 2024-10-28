@@ -54,7 +54,7 @@
   align-self: center;
   font-weight: 400;
   font-size: 18px;
-  line-height: 135%;
+  line-height: 24.3px;
   color: #000;
   font-style: normal;
 }
@@ -332,7 +332,7 @@
 .footer {
   font-family: "Raleway", sans-serif;
   background-color: #fff;
-  padding: 0 50px 88px;
+  padding: 40px 50px 88px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -340,6 +340,10 @@
 
 .footer__menu {
   text-align: center;
+}
+
+.footer__menu-list {
+  padding-right: 20px;
 }
 .footer__menu-list-item {
   list-style: none;
