@@ -52,7 +52,6 @@
 }
 
 .address {
-  
   justify-self: end;
   padding-right: 60px;
   align-self: center;
@@ -63,7 +62,7 @@
   font-style: normal;
 }
 
-.adress > a {
+.address > a {
   text-decoration: none;
   border-bottom: 1px solid #000;
 }
